@@ -1,0 +1,96 @@
+.display-container {
+  padding: 24px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background: url("/bg1.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.display-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #222;
+}
+
+.serving-box {
+  margin-top: 20px;
+  padding: 24px;
+  border: 2px solid #facc15;
+  border-radius: 8px;
+  background-color: #fff9db;
+  font-size: 1.5rem;
+}
+
+.serving-title {
+  font-weight: bold;
+  margin-bottom: 12px;
+  font-size: 1.8rem;
+  color: #b45309;
+}
+
+.no-serving {
+  margin-top: 20px;
+  color: #666;
+  font-style: italic;
+}
+
+.queue-list-title {
+  margin-top: 32px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #111;
+}
+
+.queue-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 12px;
+}
+
+.queue-item {
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  font-size: 1.1rem;
+  transition: transform 0.2s ease;
+}
+
+.queue-item:hover {
+  transform: scale(1.02);
+  background-color: #f1f1f1;
+}
+.icon1 {
+  width: 30px;
+}
+.skip-reason {
+  color: red;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+  font-style: italic;
+}
+.display-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #1e3a8a; /* dark blue */
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding: 15px 10px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.display-footer p {
+  margin: 5px 0;
+}
+
+/* ✅ Prevent queue list from being hidden */
+.display-container {
+  padding-bottom: 100px; /* leave space for footer */
+}
